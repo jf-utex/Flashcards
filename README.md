@@ -1,9 +1,19 @@
 # Flashcards
 
 
-##  Using Constructor to allow in line Deletion - JavaScript and Node.js
+##  Using Constructor to allow in line Deletion
+
+Using:
 * JavaScript
 * Node.js
+
+
+This is a backend program for a basic flashcard application.
+
+The program does require that the inquirer API be installed on the user machine.
+
+the flashcards with make use of cloze deletion which is simply a sentence that has had some of its text removed.  The removed text is like the back of a flashcard - to reveal the correct answer.
+
 
 # Heading
 
