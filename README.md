@@ -1,2 +1,38 @@
 # Flashcards
-Using Cloze Deletion - JavaScript and Node.js
+
+
+##Using COnstructor to allow in line Deletion - JavaScript and Node.js
+* JavaScript
+* Node.js
+
+# Heading
+
+## Sub-heading
+
+### Another deeper heading
+
+Paragraphs are separated
+by a blank line.
+
+Two spaces at the end of a line leave a  
+line break.
+
+Text attributes _italic_, *italic*, __bold__, **bold**, `monospace`.
+
+Horizontal rule:
+
+---
+
+Bullet list:
+
+  * apples
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. apples
+  2. oranges
+  3. pears
+
+A [link](http://example.com).
