@@ -1,7 +1,7 @@
 # Flashcards
 
 
-##  Using Constructor to allow in line Deletion
+##  Using constructors to hide and reveal answers on "flashcards" 
 
 Using:
 * JavaScript
@@ -12,7 +12,10 @@ This is a backend program for a basic flashcard application.
 
 The program does require that the inquirer API be installed on the user machine.
 
-the flashcards with make use of cloze deletion which is simply a sentence that has had some of its text removed.  The removed text is like the back of a flashcard - to reveal the correct answer.
+These flashcards will make use of cloze deletion which is simply a sentence that has had some of its text removed.  The removed text is like the back of a flashcard - to reveal the correct answer.
+
+This programming is useful for building flash card applications that forces users to remember the important part of a sentence, and is a common device in educational applications.
+
 
 
 # Heading
