@@ -1,7 +1,7 @@
 # Flashcards
 
 
-##Using COnstructor to allow in line Deletion - JavaScript and Node.js
+##  Using Constructor to allow in line Deletion - JavaScript and Node.js
 * JavaScript
 * Node.js
 
