@@ -24,6 +24,8 @@ At the command line node cli.js
   * new if you wish to load a new card
   * play if you wish to run the deck
 
+**for example: node cli.js cloze play**
+
 
 
 
