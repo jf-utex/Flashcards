@@ -1,4 +1,4 @@
-
+console.log ("connected");
 //
 // In this week's assignment, you will create the backend for a basic flashcard application.
 //
@@ -94,10 +94,15 @@
 // Look up scope-safe constructors, and try to implement them. It takes only two additional lines of code.
 
 
+// user input as follows:  node <fileName> input front back
 
+//REQUIRES package for file system
+var fs = require('fs');
+//REQUIRES  inquirer for getting info from user
 var inquirer = require('inquirer');
-inquirer.prompt([/* Pass your questions in here */]).then(function (answers) {
-    // Use user feedback for... whatever!!
-});
+
+
+
+
 
 module.exports = BasicCard;
