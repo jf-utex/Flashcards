@@ -21,8 +21,8 @@ Commands needed to run this program are as follows:
 At the command line node cli.js  
 * the next command will need to be the style of card you choose: basic or cloze
 * the next command will be new or play
-* * new if you wish to load a new card
-* * play if you wish to run the deck
+  * new if you wish to load a new card
+  * play if you wish to run the deck
 
 
 
