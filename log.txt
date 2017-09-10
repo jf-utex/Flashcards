@@ -1,2 +1,2 @@
 
-{"front":"sdfa","back":"adfa","type":"basic"};{"front":"asdfa","back":"asdfa","type":"basic"};{"front":"hjgh","back":"jk","type":"basic"};
+{"front":"sdfa","back":"adfa","type":"basic"};{"front":"asdfa","back":"asdfa","type":"basic"};{"front":"hjgh","back":"jk","type":"basic"};{"text":"george washington was the first president","cloze":"george","clozeDeleted":"________ washington was the first president","type":"cloze"};

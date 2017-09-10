@@ -59,12 +59,12 @@ var addCard = function() {
         name: "back",
         message: "What is the answer?",
 
-      }]).then(function(answer) {
+      }]).then(function(answers) {
         var newBasic = new BasicCard(answer.front, answer.back);
         newBasic.create();
         whatsNext();
       });
-    } else if (answer.cardType === "cloze") {
+    } else if (answers.cardType === "cloze") {
       inquirer.prompt([{
         name: 'text',
         message: 'What is the full text?',
@@ -77,7 +77,7 @@ var addCard = function() {
         var text = answers.text;
         var cloze = answers.cloze;
         if (text.includes(cloze)) {
-          var newCloze = new CloseCard(text, cloze);
+          var newCloze = new ClozeCard(text, cloze);
           newCloze.create();
           whatsNext();
         } else {
@@ -170,12 +170,12 @@ var addCard = function() {
 //also getting unhandlend promis when asked to show cards
 //cpounters for correct and wrong answers
 //correct this error:  What would you like to do?  Choose add-card or show-cards or end add-card
-    // ? Do you want the basic set or the cloze set? basic
-    // ? What is your question? what color is the sky?
-    // ? What is the answer? blue
-    // (node:2248) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: newBasicCard is not defined
-    // (node:2248) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code
+// ? Do you want the basic set or the cloze set? basic
+// ? What is your question? what color is the sky?
+// ? What is the answer? blue
+// (node:2248) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: newBasicCard is not defined
+// (node:2248) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code
 
-    //? What would you like to do?  Choose add-card or show-cards or end show-cards
-  // (node:2257) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: showCards is not defined
-  // (node:2257) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+//? What would you like to do?  Choose add-card or show-cards or end show-cards
+// (node:2257) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: showCards is not defined
+// (node:2257) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
