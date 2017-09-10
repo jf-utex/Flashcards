@@ -1,0 +1,2 @@
+
+{"front":"sdfa","back":"adfa","type":"basic"};{"front":"asdfa","back":"asdfa","type":"basic"};{"front":"hjgh","back":"jk","type":"basic"};
